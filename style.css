@@ -21,6 +21,9 @@ body{
   width: 170px;
   cursor: pointer;
 }
+.logo:hover{
+  transform: scale(1.2);
+}
 
 .menu{
   display:flex;
@@ -139,9 +142,33 @@ margin-top:48px;
   color:#FFF2E7;
 
 }
+.gallery-container{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 2vw;
+  padding:25px;
+  
+}
+.gallery-items{
+  width:340px;
+  height: 340px;
+  border:10px solid #2c1503;
+  box-shadow: 5px 5px 5px #0006;
+  transition: transform .5s linear;
+}
+.gallery-items img{
+  width: 320px;
+  height: 320px;
+}
+.gallery-items:hover{
+  border:10px solid rgb(73, 10, 42);
+  transform: scale(1.1);
+}
+
 .rodape{
   padding:32px;
-  border-top: 0.6px solid #FFF2E7;
+  border-top: 0.1px solid #FFF2E7;
 }
 
 .rodape-imgem{
@@ -149,4 +176,7 @@ margin-top:48px;
   display:block;
   margin: 0 auto;
   cursor:pointer;
+}
+.rodape-imgem:hover{
+  transform: scale(1.3);
 }
