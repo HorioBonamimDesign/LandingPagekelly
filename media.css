@@ -1,0 +1,12 @@
+@media only screen and (max-device-width:900px){
+  /*.menu{width:100%;} */
+}
+// Large devices (desktops, 992px and up)
+
+@media (min-width: 992px) { ... }
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+
+@media (min-width: 1200px) {
